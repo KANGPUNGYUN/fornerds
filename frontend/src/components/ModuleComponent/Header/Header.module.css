@@ -9,7 +9,7 @@
 .leftBox {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
 }
 
 .nav {
