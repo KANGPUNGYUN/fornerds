@@ -39,7 +39,7 @@ export function CategoryFilter({ categories }: CategoryFilterProps) {
           onClick={handleDownClick}
         >
           {category}
-          {isOpen ? <DownSmall stroke="white" /> : <UpSmall stroke="white" />}
+          {isOpen ? <UpSmall stroke="white" /> : <DownSmall stroke="white" />}
         </Button>
 
         <div
