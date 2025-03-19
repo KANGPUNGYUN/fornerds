@@ -61,9 +61,9 @@ export function ProjectFilter({
         >
           Language
           {isLanguageOpen ? (
-            <DownSmall stroke="white" />
-          ) : (
             <UpSmall stroke="white" />
+          ) : (
+            <DownSmall stroke="white" />
           )}
         </Button>
         <div
@@ -106,9 +106,9 @@ export function ProjectFilter({
         >
           Difficulty
           {isDifficultyOpen ? (
-            <DownSmall stroke="white" />
-          ) : (
             <UpSmall stroke="white" />
+          ) : (
+            <DownSmall stroke="white" />
           )}
         </Button>
         <div
@@ -145,9 +145,9 @@ export function ProjectFilter({
         >
           Reward
           {isRewardOpen ? (
-            <DownSmall stroke="white" />
-          ) : (
             <UpSmall stroke="white" />
+          ) : (
+            <DownSmall stroke="white" />
           )}
         </Button>
         <div
